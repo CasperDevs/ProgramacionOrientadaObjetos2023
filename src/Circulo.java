@@ -21,10 +21,16 @@ public class Circulo extends Figura{
         this.radio = radio;
     }
 
-    Scanner leer = new Scanner(System.in);
 
-    radio = leer.nextDouble();
-    public void calcularPerimetro(){
-        this.perimetro =
+    public void calcularRadio(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Introduce el radio del círculo: ");
+        double radio = scanner.nextDouble();
+
+        double area = Math.PI * Math.pow(radio, 2);
+        System.out.println("El área del círculo es: " + area);
+
+        double perimetro = 2 * Math.PI * radio;
+        System.out.println("El perímetro del círculo es: " + perimetro);
     }
 }
