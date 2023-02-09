@@ -1,6 +1,7 @@
 public class Figura {
     protected float area;
     protected float perimetro;
+    protected double areac;
 
     public float getArea() {
         return area;
@@ -11,4 +12,5 @@ public class Figura {
     public float getPerimetro() {
         return perimetro;
     }
+
 }
