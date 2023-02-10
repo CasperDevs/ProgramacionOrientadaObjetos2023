@@ -1,3 +1,5 @@
+package FigGeom;
+
 import java.util.Scanner;
 
 public class Circulo extends Figura{

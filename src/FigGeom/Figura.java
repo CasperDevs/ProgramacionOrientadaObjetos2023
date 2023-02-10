@@ -1,3 +1,5 @@
+package FigGeom;
+
 public class Figura {
     protected float area;
     protected float perimetro;

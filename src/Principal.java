@@ -1,3 +1,6 @@
+import FigGeom.Figura;
+import FigGeom.Triangulo;
+
 public class Principal {
     public static void main(String[] args) {
         Figura fig = new Figura();

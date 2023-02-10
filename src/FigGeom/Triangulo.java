@@ -1,3 +1,5 @@
+package FigGeom;
+
 public class Triangulo  extends Figura{
     private float base;
     private float altura;
